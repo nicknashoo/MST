@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MST" />
+    <link rel="icon" href="./img/logo.png" />
+    <title>MST</title>
+    <link rel="stylesheet" href="./css/normalizez.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <p class="logo">Dwello</p>
+                <ul class="header__links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Properties</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
+                <div class="header__hamburger">
+                    <div class="menu__hamburger">
+                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                        <label for="burger-checkbox" class="burger"></label>
+                        <ul class="menu-list__hamburger">
+                            <li><a href="/" class="menu-item__hamburger">Home</a><li>
+                            <li><a href="/" class="menu-item__hamburger">Properties</a><li>
+                            <li><a href="/" class="menu-item__hamburger">Contact Us</a><li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="about">
+            <div class="container">
+                <div class="about__container">
+                    <div class="about__text">
+                        <h1 class="title">Find Your Perfect Apartment</h1>
+                        <p class="desc">Discover a range of stunning apartments tailored to fit your lifestyle and budget.</p>
+                        <ul>
+                            <li>
+                                <img class="point" src="./img/point.svg" alt="buy">
+                                <span>95%</span> Client Satisfaction Rate
+                            </li>
+                            <li>
+                                <img class="point" src="./img/point.svg" alt="apartment">
+                                <span>100+</span> Apartments Sold Monthly
+                            </li>
+                            <li>
+                                <img class="point" src="./img/point.svg" alt="city">
+                                Up <span>$10,000</span> in Costs
+                            </li>
+                        </ul>
+                        <a class="main-btn" href="/"><p>Explore Our Listings</p></a>
+                    </div>
+                    <div class="about__img">
+                        <img src="./img/aboutcom.webp" alt="about company">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="advantages">
+            <div class="container">
+                <div class="advantages__container">
+                    <div class="advantages__img">
+                        <img src="./img/adv1.webp" alt="picture city">
+                    </div>
+                    <div class="advantages__text">
+                        <ul class="adv-list">
+                            <li>
+                                <img src="./img/adv.svg" alt="icon">
+                                <p>Wide Selection: A diverse portfolio of apartments catering to different preferences and budgets.</p>
+                            </li>
+                            <li>
+                                <img src="./img/adv.svg" alt="icon">
+                                <p>Expert Agents: Knowledgeable and friendly real estate agents ready to assist you at every step.</p>
+                            </li>
+                            <li>
+                                <img src="./img/adv.svg" alt="icon">
+                                <p>Transparent Pricing: Clear and upfront pricing with no hidden fees.</p>
+                            </li>
+                            <li>
+                                <img src="./img/adv.svg" alt="icon">
+                                <p>Customer-Centric Approach: Our clients needs are always our top priority, ensuring a smooth buying experience.</p>
+                            </li>
+                        </ul>
+                        <a class="main-btn adv-btn" href="/"><p>Get Started with Us</p></a>
+                    </div>
+                    <div class="advantages__img">
+                        <img src="./img/adv2.webp" alt="img house">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="contact">
+            <div class="container">
+                <div class="contact__container">
+                    <div class="form-container">
+
+
+                        <form class="form" action="contacts.php" method="post">
+                            <legend class="form__title">Get a Free Consultation</legend>
+                            <input class="form__input" type="text" name="name" placeholder="Your name">
+                            <input class="form__input" type="email" name="email" placeholder="E-mail">
+                            <div class="form__checkbox">
+                                <input type="checkbox" id="accept" name="accept" />
+                                <label for="scales">I consent to receive <a href="/">updates</a>.</label>
+                            </div>
+                            <input class="form__btn submit" type="submit" id="feedback-form" value="Submit Request">
+                        </form>
+
+                    </div>
+                    <img class="front-img" src="./img/formhuman.png" alt="human">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="reviews">
+            <div class="container">
+                <div class="reviews-container">
+                    <h2 class="reviews-title">Client Testimonials:</h2>
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="slide active">
+                                <div class="stars" id="starRating1"></div>
+                                <p class="review-text">Dream Homes Realty helped me find my dream apartment in no time! Their service was exceptional!</p>
+                                <h3 class="review-author">Sarah J.</h3>
+                            </div>
+                            <div class="slide">
+                                <div class="stars" id="starRating2"></div>
+                                <p class="review-text">The team was professional and understanding of my needs. Highly recommend!</p>
+                                <h3 class="review-author">Mark T.</h3>
+                            </div>
+                            <div class="slide">
+                                <div class="stars" id="starRating3"></div>
+                                <p class="review-text">Thanks to Dream Homes, I saved thousands on my new apartment!</p>
+                                <h3 class="review-author">Lucy M.</h3>
+                            </div>
+                            <div class="slide">
+                                <div class="stars" id="starRating4"></div>
+                                <p class="review-text">The team at Dream Homes Realty made the entire process of buying my apartment effortless. Their expertise and support were invaluable. I'm thrilled with my new home</p>
+                                <h3 class="review-author">Jason R.</h3>
+                            </div>
+                        </div>
+                        <button class="review-btn review-prev" id="prev">❮</button>
+                        <button class="review-btn review-next" id="next">❯</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="menu">
+            <div class="container">
+                <div class="menu__container">
+                    <a href="/" class="menu-item">Listings</a>
+                    <a href="/" class="menu-item">Services</a>
+                    <a href="/" class="menu-item">About</a>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__column footer__start">
+                    <h5>Dwello</h5>
+                    <p class="footer__text">© 2024, Copyright.</p>
+                </div>
+                <div class="footer__column footer__center">
+                    <div class="footer__links">
+                        <a href="/"><img class="footer__links__item" src="./img/inst.svg" alt="insta"></a>
+                        <a href="/"><img class="footer__links__item" src="./img/tiktok.svg" alt="tiktok"></a>
+                        <a href="/"><img class="footer__links__item" src="./img/in.svg" alt="in"></a>
+                        <a href="/"><img class="footer__links__item" src="./img/facebook.svg" alt="facebook"></a>
+                        <a href="/"><img class="footer__links__item" src="./img/tg.svg" alt="tg"></a>
+                        <a href="/"><img class="footer__links__item" src="./img/youtube.svg" alt="youtube"></a>
+                    </div>
+                    <a href="/" class="footer__link">Approval</a>
+                </div>
+                <div class="footer__column footer__end">
+                    <a class="main-btn footer-btn" href="/"><p>Info</p></a>
+                    <a href="/" class="footer__link">Deals</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+
+
+    <script src="js/reviews.js"></script>
+    <script src="js/img.js"></script>
+    <script src="js/points.js"></script>
+    <script src="js/stars.js"></script>
+    <script>
+        document.getElementById('feedback-form').addEventListener('submit', function(evt){
+          var http = new XMLHttpRequest(), f = this;
+          evt.preventDefault();
+          http.open("POST", "contacts.php", true);
+          http.onreadystatechange = function() {
+            if (http.readyState == 4 && http.status == 200) {
+              alert(http.responseText);
+              if (http.responseText.indexOf(f.nameFF.value) == 0) {
+                f.messageFF.removeAttribute('value');
+                f.messageFF.value='';
+              }
+            }
+          }
+          http.onerror = function() {
+            alert('Извините, данные не были переданы');
+          }
+          http.send(new FormData(f));
+        }, false);
+    </script>
+</body>
+
+</html>
